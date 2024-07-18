@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = "*"
+uvicorn = "*"
+pillow = "*"
+pyautogui = "*"
+img2pdf = "*"
+cryptography = "*"
+wxpython = "*"
+matplotlib = "*"
+flask = "*"
+pydantic = "*"
+pandas = "*"
+
+[dev-packages]
+mypy = "*"
+pytest = "*"
+pytest-asyncio = "*"
+
+[requires]
+python_version = "3.10"
